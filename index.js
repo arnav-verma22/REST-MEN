@@ -16,12 +16,14 @@ app.use(express.json)
 
 app.use('/aliens', alrouter)
 
+/*
 app.get('/', (req, res) => {
     return res.status(200).json({
         "status": true,
         "message": "Rest API"
     });
 });
+*/
 
 app.listen(9000, () => {
     console.log('Server started')
